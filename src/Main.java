@@ -33,7 +33,7 @@ public class Main {
             System.out.println(year + " - високосный год");
         } else if (year % 4 == 0 && year % 100 > 0) {
             System.out.println(year + " - високосный год");
-            } else if (year % 100 == 0) {
+        } else if (year % 100 == 0) {
             System.out.println(year + " - не високосный год");
         } else {
             System.out.println(year + " - високосный год");
@@ -43,8 +43,41 @@ public class Main {
         System.out.println();
         System.out.println("Task 4");
         int deliveryDistance = 10;
-        int daysAmount = 1 + (deliveryDistance + 19) / 40; {
+        int daysAmount = 1 + (deliveryDistance + 19) / 40;
+        {
             System.out.println("Потребууется дней: " + daysAmount);
+        }
+
+        //Task 5
+        System.out.println();
+        System.out.println("Task 5");
+        int monthNumber = 12;
+        switch (monthNumber) {
+            case 1: System.out.println("Январь (Зима)");
+                break;
+            case 2: System.out.println("Февраль (Зима)");
+                break;
+            case 3: System.out.println("Март (Весна)");
+                break;
+            case 4: System.out.println("Апрель (Весна)");
+                break;
+            case 5: System.out.println("Май (Весна)");
+                break;
+            case 6: System.out.println("Июнь (Лето)");
+                break;
+            case 7: System.out.println("Июль (Лето)");
+                break;
+            case 8: System.out.println("Август (Лето)");
+                break;
+            case 9: System.out.println("Сентябрь (Осень)");
+                break;
+            case 10: System.out.println("Октябрь (Осень)");
+                break;
+            case 11: System.out.println("Ноябрь (Оснь)");
+                break;
+            case 12: System.out.println("Декабрь (Зима)");
+                break;
+            default: System.out.println("Такого месяца не существует");
         }
     }
 }
