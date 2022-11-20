@@ -39,5 +39,12 @@ public class Main {
             System.out.println(year + " - високосный год");
         }
 
+        //Task 4
+        System.out.println();
+        System.out.println("Task 4");
+        int deliveryDistance = 10;
+        int daysAmount = 1 + (deliveryDistance + 19) / 40; {
+            System.out.println("Потребууется дней: " + daysAmount);
+        }
     }
 }
